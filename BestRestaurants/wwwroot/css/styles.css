@@ -1,22 +1,24 @@
 body {
-  font-family: 'Croissant One', cursive;
-  background-color: seagreen;
+  font-family: 'Croissant One', serif;
+  background-image: url("../img/FoodTile.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
 
 }
 
 h1 {
-  font-family: 'Croissant One', cursive;
+  font-family: 'Croissant One', serif;
   text-align: center;
   font-size: 50px;
   margin-bottom: 10px;
 }
 
 ul {
-  text-align: left;
+  text-align: center;
 }
 
 p {
-  font-family: 'Croissant One', cursive;
+  font-family: 'Croissant One', serif; 
   text-align: center;
   font-size: 28px;
   padding-top: 10px;
@@ -36,12 +38,65 @@ p {
   padding-left: 75px;
   padding-right: 75px;
   text-align: center;
-  border-color: linen;
+  border-color: yellow;
   border-width: 8px;
   border-style: groove;
-  background-color: lavender;
+  background-color: rgb(211, 64, 48);
   width: fit-content;
   height: fit-content;
-  opacity: 0.8;
+}
 
+input textarea {
+  font-family: 'Croissant One', serif;
+  clear: right;
+  margin: 20px;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  display: table-column-group;
+  background-color: antiquewhite;
+  vertical-align: baseline;
+}
+
+.hypbutton {
+  font-family: 'Croissant One', serif;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  color: #111;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.buttonContain {
+  display: inline;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.miniBorder {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-color: rgb(174, 107, 0);
+  border-width: 4px;
+  border-style: groove;
+  background-color: rgb(255, 210, 143);
+  width: fit-content;
+  height: auto;
 }

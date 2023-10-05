@@ -1,6 +1,7 @@
 @using BestRestaurants.Models;
 @model Restaurant;
 
+<div class="border">
 @using (Html.BeginForm())
 {
     @Html.LabelFor(model => model.Name)
@@ -16,5 +17,5 @@
     <br>
     <input type="submit" value="Create"/>
 } 
-<p>@Html.ActionLink("Show all Restaurants", "Index")</p>
-
+<p class="hypbutton">@Html.ActionLink("Show all Restaurants", "Index")</p>
+</div>

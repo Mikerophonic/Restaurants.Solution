@@ -1,5 +1,6 @@
 @using BestRestaurants.Models;
 
+<div class="border">
 <h1>Restaurants!</h1>
 
 @if(@Model.Count == 0)
@@ -7,12 +8,17 @@
   <p>No Restaurants added.</p>
 }
 
-<ul>
+<div class="miniBorder">
+<ul >
   @foreach (Restaurant restaurant in Model)
-  {
-    <li>@Html.ActionLink($"{restaurant.Name}", "Show", new { id = restaurant.RestaurantId })</li>
+  {<div class="buttonContain">
+    <p>@Html.ActionLink($"{restaurant.Name}", "Show", new { id = restaurant.RestaurantId })</p>
+    </div>
   }
 </ul>
+</div>
 
 
-<p>@Html.ActionLink("Add a new restaurant", "Create", "Restaurant")</p>
+<p class="hypbutton">@Html.ActionLink("Add a new restaurant", "Create", "Restaurant")</p>
+<p class="hypbutton">@Html.ActionLink("Go Home", "Index", "Home")</p>
+</div>

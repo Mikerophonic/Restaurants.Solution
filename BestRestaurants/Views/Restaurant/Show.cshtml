@@ -1,11 +1,18 @@
 @model BestRestaurants.Models.Restaurant;
 
+<div class="border">
 <h1>Restaurant</h1>
 
+<div class="miniBorder">
 <h2>@Html.DisplayNameFor(model=>model.Name): @Html.DisplayFor(model=> model.Name)</h2>
-<ul>
-  <li>@Html.DisplayNameFor(model=>model.City): @Html.DisplayFor(model=> model.City)</li>
-  <li>@Html.DisplayNameFor(model=>model.Cuisine): @Html.DisplayFor(model=> model.Cuisine)</li>
-</ul>
 
-<p>@Html.ActionLink("Back to List", "Index")</p>
+<ul>
+  <p>@Html.DisplayNameFor(model=>model.City): @Html.DisplayFor(model=> model.City)</p>
+  <p>@Html.DisplayNameFor(model=>model.Cuisine): @Html.DisplayFor(model=> model.Cuisine)</p>
+</ul>
+</div>
+
+<p class="hypbutton">@Html.ActionLink("Back to List", "Index")</p>
+<br> 
+<p class="hypbutton">@Html.ActionLink("Go Home", "Index", "Home")</p>
+</div>

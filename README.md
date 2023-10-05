@@ -40,4 +40,4 @@ _If you encounter any issues or want to provide feedback, feel free to reach out
 
 _Feel free to reach out if you have any concerns, feedback, or wish to make contributions to the code._
 
-Copyright (c) 2023 ike Connelly, Genesis Scott, Julien Lenaz, Jordan Kennedy
+Copyright (c) 2023 Mike Connelly, Genesis Scott, Julien Lenaz, Jordan Kennedy
